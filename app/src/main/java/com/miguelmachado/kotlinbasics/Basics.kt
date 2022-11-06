@@ -25,4 +25,19 @@ fun main() {
      */
     val myFloat: Float = 13.37F // F in the end explicitly stating that it should be a float
     val myDouble: Double = 3.14159265359
+
+    /*
+    * Booleans are used to represent logical values. It can have two possible values
+    * true and false
+    * */
+    var isSunny: Boolean = true
+    isSunny = false
+
+    // Characters
+    val letterChar: Char = 'A'
+    val digitChar: Char = '1'
+
+    // String
+    val myStr = "Hello World"
+    var firstCharInStr = myStr[0]
 }
