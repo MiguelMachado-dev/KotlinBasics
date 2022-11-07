@@ -10,4 +10,22 @@ fun whileLoop() {
     }
 
     print("\nwhile loop is done")
+
+    var y = 1
+    do {
+        println("$y ")
+        y++
+    } while (y <= 10)
+
+    var feltTemp = "cold"
+    var roomTemp = 10
+
+    while (feltTemp == "cold") {
+        roomTemp++
+
+        if (roomTemp >= 20) {
+            feltTemp = "comfy"
+            println("It's comfy now!")
+        }
+    }
 }
