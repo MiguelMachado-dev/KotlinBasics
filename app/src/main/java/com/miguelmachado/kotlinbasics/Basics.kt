@@ -56,4 +56,6 @@ fun main() {
     val conditionals = Conditionals()
     conditionals.runConditional()
     whenConditional()
+
+    whileLoop()
 }
