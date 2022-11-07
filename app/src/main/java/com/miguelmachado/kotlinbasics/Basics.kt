@@ -52,4 +52,7 @@ fun main() {
     // Comparison operators ( ==, !=, <, >, <=, >=)
     val isEqual = result == b
     val isNotEqual = result != b
+
+    val conditionals = Conditionals()
+    conditionals.runConditional()
 }
