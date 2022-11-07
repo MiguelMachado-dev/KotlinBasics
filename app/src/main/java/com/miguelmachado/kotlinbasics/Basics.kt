@@ -58,4 +58,5 @@ fun main() {
     whenConditional()
 
     whileLoop()
+    forLoop()
 }
