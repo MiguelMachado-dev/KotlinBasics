@@ -48,4 +48,8 @@ fun main() {
     var resultDouble: Double = a / b
     // var resultParsed = (a / b).toInt()
     println(resultDouble)
+
+    // Comparison operators ( ==, !=, <, >, <=, >=)
+    val isEqual = result == b
+    val isNotEqual = result != b
 }
