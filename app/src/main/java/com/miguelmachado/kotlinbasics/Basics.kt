@@ -4,7 +4,7 @@ fun main() {
     val myName = "Miguel"
     var myAge = 23
     myAge += 1
-    print("Hello $myName, I am $myAge years old")
+    println("Hello $myName, I am $myAge years old")
 
     /*
      Integer Types:
@@ -40,4 +40,12 @@ fun main() {
     // String
     val myStr = "Hello World"
     var firstCharInStr = myStr[0]
+
+    // Arithmetic operators
+    var result = 5 + 3
+    val a = 5.0
+    val b = 3
+    var resultDouble: Double = a / b
+    // var resultParsed = (a / b).toInt()
+    println(resultDouble)
 }
